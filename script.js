@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let books = [];
 
     // Load the CSV file
-    fetch('Preschool Book List.csv')
+    fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vSbvq2XHTejLB_tg8rtZ0lvtoHeBg8bMuTL4_JCy4B28eNWi9g7vcspNNMXkrVonhww6fb4df3jfn_c/pub?gid=0&single=true&output=csv')
         .then(response => response.text())
         .then(csvText => {
             Papa.parse(csvText, {
