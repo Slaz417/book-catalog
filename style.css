@@ -1,7 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    font-family: 'Nunito', sans-serif;
+    background-image: url('LittleAcorn.jpg'); 
+    backgound-size: cover;
+    background-attachment: fixed;
+
+    color: var(--text-color);
     margin: 0;
     padding: 20px;
 }
